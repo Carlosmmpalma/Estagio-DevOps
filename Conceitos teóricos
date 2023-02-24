@@ -1,0 +1,2 @@
+Docker:
+-Plantaforma de software que permite a criação, empacotamento e execução de aplicações em ambientes isolados chamados conteiners.É uma tecnologia de virtualização que permite executar aplicações de forma consistente em diferentes ambientes sem ser necessária a preocupação com as diferenças entre o SO, bibliotecas e configurações especificas. Cada conteiner é uma unidade autónoma com a sua própria versão de bibliotecas, SO e outros componentes sem afetar os outros conteiners.
