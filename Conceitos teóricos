@@ -1,13 +1,79 @@
 >Docker:
--Plantaforma de software que permite a criação, empacotamento e execução de aplicações em ambientes isolados chamados conteiners.
-É uma tecnologia de virtualização que permite executar aplicações de forma consistente em diferentes ambientes sem ser necessária a preocupação com as diferenças entre o SO, bibliotecas e configurações especificas. Cada conteiner é uma unidade autónoma com a sua própria versão de bibliotecas, SO e outros componentes sem afetar os outros conteiners.
+-Plantaforma de software que permite a criação, empacotamento e execução de
+aplicações em ambientes isolados chamados conteiners.
+É uma tecnologia de virtualização que permite executar aplicações de forma
+consistente em diferentes ambientes sem ser necessária a preocupação com as 
+diferenças entre o SO, bibliotecas e configurações especificas. Cada
+conteiner é uma unidade autónoma com a sua própria versão de bibliotecas, SO
+e outros componentes sem afetar os outros conteiners.
+
 >Kubernetes:
--Plantaforma open source para automatização, escalabilidade e gerenciamento de containers. Projetada para a implantação de conteiners em um ambiente de produção distribuido automatizando tarefas. O Kubernetes permite que os utilizadores implantem aplicações de maneira consistente em diferentes ambientes, desde data centers locais até a nuvem pública, usando uma arquitetura de cluster de nós, onde cada nó é um servidor que executa contêineres.
+-Plantaforma open source para automatização, escalabilidade e gerenciamento
+de containers. Projetada para a implantação de conteiners em um ambiente de
+produção distribuido automatizando tarefas. O Kubernetes permite que os 
+utilizadores implantem aplicações de maneira consistente em diferentes 
+ambientes, desde data centers locais até a nuvem pública, usando uma 
+arquitetura de cluster de nós, onde cada nó é um servidor que executa 
+contêineres.
+
 >Microservices
--Abordagem de desenvolvimento de software que consiste em dividir uma aplicação em serviços independentes e altamente especializados. Cada serviço é projetado para ser autônomo e executar uma única função bem definida, com o objetivo de simplificar o desenvolvimento, a implantação e o gerenciamento. Os microservices são construídos para serem independentes uns dos outros, o que significa que eles podem ser desenvolvidos, testados, implantados e escalados separadamente. Eles também podem ser escritos em diferentes linguagens de programação e podem ser executados em diferentes servidores e plataformas.
+-Abordagem de desenvolvimento de software que consiste em dividir uma 
+aplicação em serviços independentes e altamente especializados. Cada serviço
+é projetado para ser autônomo e executar uma única função bem definida, com o
+objetivo de simplificar o desenvolvimento, a implantação e o gerenciamento. 
+Os microservices são construídos para serem independentes uns dos outros, o 
+que significa que eles podem ser desenvolvidos, testados, implantados e 
+escalados separadamente. Eles também podem ser escritos em diferentes 
+linguagens de programação e podem ser executados em diferentes servidores e 
+plataformas.
+
 >GitHub Actions
--Plantaformade automatização do fluxo de trabalho que permite automatizar tarefas de desenvolvimento de software diretamente no GitHub. Com o GitHub Actions é possivel definir fluxos de trabalho personalizados usando uma linguagem de script chamada YAML. Permite compilar, testar empacotar e implantar código, bem como outras tarefas relacionadas com a construção de software.
+-Plantaformade automatização do fluxo de trabalho que permite automatizar 
+tarefas de desenvolvimento de software diretamente no GitHub. Com o GitHub 
+Actions é possivel definir fluxos de trabalho personalizados usando uma 
+linguagem de script chamada YAML. Permite compilar, testar empacotar e 
+implantar código, bem como outras tarefas relacionadas com a construção de 
+software.
+
 >Pipeline
--Processo automatizado que descreve as etapas necessárias para transformar o source code numa aplicação em funcionamento, ajudando a garantir a qualidade e segurança do software. É composta por várias etapas, como compilação,testes,análise do código, empacotamento e implatação e é usada em práticas de integração e entrega continua.
+-Processo automatizado que descreve as etapas necessárias para transformar o 
+source code numa aplicação em funcionamento, ajudando a garantir a qualidade 
+e segurança do software. É composta por várias etapas, como 
+compilação,testes,análise do código, empacotamento e implatação e é usada em 
+práticas de integração e entrega continua.
+
 >CI/CD(Continuos Integration/Continuos deployment)
--Práticas que procuram automatizar e acelerar o processo de desenvolvimento de software. A integração contínua é uma prática que consiste em integrar o código-fonte de forma contínua e automática em um repositório central, permitindo que o desenvolvimento do software seja feito de forma colaborativa e mais eficiente. A entrega contínua, por sua vez, é uma prática que visa automatizar todo o processo de implantação do software em um ambiente de produção. 
+-Práticas que procuram automatizar e acelerar o processo de desenvolvimento 
+de software. A integração contínua é uma prática que consiste em integrar o 
+código-fonte de forma contínua e automática em um repositório central, 
+permitindo que o desenvolvimento do software seja feito de forma colaborativa 
+e mais eficiente. A entrega contínua, por sua vez, é uma prática que visa 
+automatizar todo o processo de implantação do software em um ambiente de 
+produção. 
+
+>Agile
+-Metodologia de desenvolvimento de software em que ao invés de termos um 
+modelo em cascata em que o cliente apenas obtem o trabalho desenvolvido após 
+a conclusão de todo o projeto, são entregues incrementos(imaginemos como se o 
+trabalho fosse subdivido em pequenas partes) e ao mesmo tempo mantemos a 
+forma de trabalhar de um modelo waterfall em que passamos por várias fases 
+Requisitos->Design->Develop->Test->Deploy.
+
+>Scrum
+-Uma metodologia de desenvolvimento de software baseada em metodologias 
+ágeis, em que o trabalho é subdivido em sprints(espaços de tempo), no inicio 
+de sprint a equipa reune-se e decide quais as tarefas de maior importância e 
+decidem quais desenvolver, ao longo do sprint continuamos a passar pelas 
+fases de um modelo waterfall. Ocorrem reuniôes diárias para percebermos em 
+que ponto estamos, no final do sprint existe outra reunião para entender o 
+que foi aprendido e desenvolvido.
+
+>Kanban
+-Uma metodologai de desenvolvimento de software baseada em metdologias ágeis
+em que é utilizada uma abordagem continua com as várias fases de um modelo 
+waterfall, no entanto são apenas permitidas um numero maximo de tarefas em 
+cada fase do desenvolvimento(por exemplo apenas duas em develop, apenas tres 
+em test...) quando uma tarefa passa para a proxima fase é aberto um espaço 
+que permite passar uma tarefa na fase anterior anterior para essa mesma fase.
+
+
